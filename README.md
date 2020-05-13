@@ -1,7 +1,7 @@
 # Simulador-Investe  
   
   
-Simulação de investimento com base em juros composto.  
+Simulação de investimento com base em juros composto de 0,517%.  
 A aplicação tem duas tela   
   
 Após preencher os campos, ao clicar em simular, é feito um POST na API http://api.mathjs.org/v4/ que é uma api para calculos.
