@@ -4,7 +4,7 @@
 Simulação de investimento com base em juros composto.  
 A aplicação tem duas tela   
   
-Apos preencher os campos, ao clicar em simular, é feito um POST na API http://api.mathjs.org/v4/ que é uma api para calculos.
+Após preencher os campos, ao clicar em simular, é feito um POST na API http://api.mathjs.org/v4/ que é uma api para calculos.
 ![print01](https://user-images.githubusercontent.com/56805229/81838850-1c52cc80-951d-11ea-8a06-912ee44767c3.png)  
   
 
