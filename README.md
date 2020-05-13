@@ -1,7 +1,14 @@
 # Simulador-Investe  
   
-Visite o projeto https://ricardobaltazar.github.io/Simulador-Investe/  
   
 Simulação de investimento com base em juros composto.  
 A aplicação tem duas tela   
-![simula](https://user-images.githubusercontent.com/56805229/81835729-f7f4f100-9518-11ea-9e13-8df797e50bdb.png)
+  
+Apos preencher os campos, ao clicar em simular, pe feito um POST na API http://api.mathjs.org/v4/ que é uma api para calculos.
+![print01](https://user-images.githubusercontent.com/56805229/81838850-1c52cc80-951d-11ea-8a06-912ee44767c3.png)  
+  
+
+O resultado do calculo retorna na segunda tela  
+![print02](https://user-images.githubusercontent.com/56805229/81838866-22e14400-951d-11ea-8484-085a3dfc5012.png)  
+
+Clicando em simular novamente ele retorna para a primeira tela com todos os campos limpos para digitar novas informações.
