@@ -10,47 +10,56 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="body">
-    
-    <div class="form-group container">
-        <div class="title text-center">
-            <h2>Simulador investe</h2>
-            <small>Simulador de investimento com calculo baseado em juros composto de 0.517% ao mês</small>
-        </div>
-        <br>
-        <form>
-            <span>NOME</span>
-            <br>
-            <input type="text" name="" id="name" maxlength="30">
-            <br>
-            <br>
-            <span>MENSALIDADE</span> 
-            <br>
-            <input type="number" name="" id="payment" maxlength="15"><span>$</span>
-            <br>
-            <br>
-            <span>TEMPO DE INVESTIMENTO</span>
-            <br>
-            <select name="" id="options">
-                <option value="12" >1 ano</option>
-                <option value="24">2 anos</option>
-                <option value="36">3 anos</option>
-                <option value="48">4 anos</option>
-                <option value="60">5 anos</option>
-            </select>
-            <br>
-            <br>
-            <Button type="submit" class="btn btn-primary" id="btn">Simular</Button>
-        </form>
 
-        <br>
+    <main>
+        <section>
 
-    </div>
-            <div class="result container text-center">
-                <h2>Olá <span id="name2"></span></h2>
-                <p class="p">Juntando <span id="value"></span>$ todo o mês, <br> 
-                você tera <span id="res"></span>$ em <span id="temp"></span> meses</p>
-                <button class="btn btn-primary" id="btn2">Simular novamente</button>
+            <div class="form-group container">
+                <div class="title">
+                    <h2>Simulador de Investimento!</h2>
+                    
+                    <small>Pretende guardar dinheiro? Este simulador de investimento faz calculos com
+                    base em juros composto de 0.517% ao mês.</small>
+                    <p>Already sign up? <span class="spanLogin">Log in</span></p>
+                </div>
+
+
+                <form>
+                    <span>NOME</span>
+                    <br>
+                    <input type="text" name="" id="name" maxlength="30">
+                    <br>
+                    <br>
+                    <span>MENSALIDADE</span> 
+                    <br>
+                    <input type="number" name="" id="payment" maxlength="15"><span>$</span>
+                    <br>
+                    <br>
+                    <span>TEMPO DE INVESTIMENTO</span>
+                    <br>
+                    <select name="" id="options">
+                        <option value="12" >1 ano</option>
+                        <option value="24">2 anos</option>
+                        <option value="36">3 anos</option>
+                        <option value="48">4 anos</option>
+                        <option value="60">5 anos</option>
+                    </select>
+                    <br>
+                    <br>
+                    <Button type="submit" class="btn btn-primary" id="btn">Simular</Button>
+                </form>
+        
+                <br>
+        
             </div>
+                    <div class="result container text-center">
+                        <h2>Olá <span id="name2"></span></h2>
+                        <p class="p">Juntando <span id="value"></span>$ todo o mês, <br> 
+                        você tera <span id="res"></span>$ em <span id="temp"></span> meses</p>
+                        <button class="btn btn-primary" id="btn2">Simular novamente</button>
+                    </div>
+        </section>
+    </main>
 
     <script src="main.js"></script>
 </body>

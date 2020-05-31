@@ -1,51 +1,32 @@
 .body{
-    background-color: #c1c2c1;
+    background-color: #050608;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 25px;
+}
+small{
+    color: #aaaec9;
+    text-align: left;
+    font-size: 15px;
+}
+p{
+    margin-top: 20px;
+    color: white;
+}
+.spanLogin{
+    color: #6958e4;
+}
+
 .form-group{
-    margin-top: 25px;
-    width: 500px;
-    height: 450px;
-    border-radius: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #ffffff;
-}
-.title{
-    color: black;
-}
-form{
-    font-size: 20px;
-    color: black;
-}
-.btn{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    width: 400px;
-    margin-left: 35px;
-    border:none;
-}
-input{
-    background-color: #efefef;
-    border:solid 1px #efefef;
-}
-select{
-    border: none;
-}
-
-.result{
-    margin-top: 25px;
-    width: 500px;
-    height: 200px;
-    border-radius: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #ffffff;
+    width: 350px;
+    margin-top: 50px;
+    border-radius: 10px;
     
+    box-shadow: 0.5px 0.5px 0.3em white;
+    background-color: #202328;
 }
 
-span{
-    font-weight: bold;
-}
-.p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
-}
+span
