@@ -24,7 +24,10 @@ Veja a demo do projeto sem a api
 https://ricardobaltazar.github.io/-investment-simulator/
   
 Utilizei para este projeto as tecnologias  
-#### html, #### css, #### javascript, #### botstrap
+#### html  
+#### css  
+#### javascript  
+#### botstrap
  
 
 
