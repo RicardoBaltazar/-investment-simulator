@@ -3,9 +3,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h2{
-    color: white;
+    color: #e8eefa;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 small{
     color: #aaaec9;
@@ -14,19 +14,66 @@ small{
 }
 p{
     margin-top: 20px;
-    color: white;
+    margin-bottom: 30px;
+    color: #aaaec9;
 }
 .spanLogin{
     color: #6958e4;
 }
 
 .form-group{
-    width: 350px;
-    margin-top: 50px;
-    border-radius: 10px;
-    
-    box-shadow: 0.5px 0.5px 0.3em white;
+    width: 325px;
+    margin-top: 25px;
+    border-radius: 2px;
+    padding-left: 25px;
+    box-shadow: 0.5px 0.5px 0.2em white;
     background-color: #202328;
+    text-align: left;
+    align-items: center;
 }
 
-span
+span{
+    color: #aaaec9;
+    font-size: 12px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #6958e4;
+    background-color: #202328;
+    width: 200px;
+    color: white;
+}
+input:focus{
+    outline: 0;
+}
+
+select{
+    background-color: #aaaec9;
+    border: none;
+    width: 100px;
+    margin-top: 5px;
+}
+
+.btn{
+    background-color: #6958e4;
+    border: none;
+    width: 250px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*result*/
+.result{
+    margin-top: 0px;
+    font-size: 15px;
+}
+.spanRes{
+    color: #aaaec9;
+    font-size: 20px;
+    font-weight: bold;
+}
